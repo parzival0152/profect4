@@ -2,11 +2,9 @@
 
 int main()
 {
-	char str[17] = "word,list,sample";
-	printStrings(str);
-	int a = ReverseStrings(str);
-	printStrings(str);
-	printf("%d\n", a);
+	//char str[] = "hello,a";
+	char str[] = "go,fuck,yersel";
+	ReverseStringsManager(str);
 	system("pause");
 	return 0;
 }
