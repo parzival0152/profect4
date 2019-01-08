@@ -104,12 +104,3 @@ void ReverseStringsManager(char str[])
 	printf("Reverse: ");//print the "Reverse: " part 
 	printStrings((const char(*)[])str);//print the reversed string while making it into a const array
 }
-
-
-
-/***************************************************************************************
-Function name:
-Input:
-Output:
-The function operation:
-****************************************************************************************/

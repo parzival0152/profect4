@@ -2,9 +2,12 @@
 
 int main()
 {
-	//char str[] = "hello,a";
-	char str[] = "go,fuck,yersel";
-	ReverseStringsManager(str);
+	char str[] = "1";
+	char * p;
+	p = &str[0];
+	printf("%c\n",*p);
+	printf("%c\n", *(++p));
+	printf("%c\n", *(++p));
 	system("pause");
 	return 0;
 }
