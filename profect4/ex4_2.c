@@ -5,7 +5,13 @@ Ilay Tzuberi
 83-120-05
 *************************/
 
-
+/***************************************************************************************
+Function name: DiffersInNChars
+Input: two (2) strings and an error rate n
+Output: None
+The function operation: print "yes" if the 2 strings have n or lower differences between them
+						print "no" if the 2 strings have more than n differences between them
+****************************************************************************************/
 void DiffersInNChars(char s1[], char s2[], int n)
 {
 	char *p1, *p2;//make pointers
