@@ -2,12 +2,9 @@
 
 int main()
 {
-	char str[] = "1";
-	char * p;
-	p = &str[0];
-	printf("%c\n",*p);
-	printf("%c\n", *(++p));
-	printf("%c\n", *(++p));
+	char str[] = "a,b";
+	ReverseStringsManager(str);
+	DiffersInNChars("a","b",1);
 	system("pause");
 	return 0;
 }
